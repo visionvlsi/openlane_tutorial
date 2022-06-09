@@ -4,7 +4,7 @@
 
 ./flow.tcl -interactive -file script.tcl
 
-2. OpenLane Interactive Mode Commands
+2. List of commands available in openlane, their functionality, and their expected inputs and outputs.
 
 https://github.com/efabless/OpenLane/blob/master/docs/source/openlane_commands.md
 

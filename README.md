@@ -12,7 +12,7 @@ https://github.com/efabless/OpenLane/blob/master/docs/source/advanced_readme.md
 
 3. script needs to be run in the follwing way
 
-./flow.tcl -interactive -file script.tcl
+./flow.tcl -interactive -file [script.tcl](https://github.com/visionvlsi/openlane_tutorial/blob/main/script.tcl)
 
 4. List of commands available in openlane, their functionality, and their expected inputs and outputs.
 

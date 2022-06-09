@@ -1,0 +1,26 @@
+Interactive Mode
+You may run the flow interactively by using the -interactive option:
+
+./flow.tcl -interactive
+A tcl shell will be opened where the openlane package is automatically sourced:
+
+% package require openlane
+Then, you should be able to run the following main commands:
+
+Any tcl command.
+prep -design <design> -tag <tag> -config <config> -init_design_config -overwrite similar to the command line arguments, design is required and the rest is optional
+run_synthesis
+run_floorplan
+run_placement
+run_cts
+run_routing
+write_powered_verilog followed by set_netlist $::env(routing_logs)/$::env(DESIGN_NAME).powered.v
+run_magic
+run_magic_spice_export
+run_magic_drc
+run_lvs
+run_antenna_check
+
+The above commands can also be written in a file and passed to flow.tcl:
+
+./flow.tcl -interactive -file <file>
